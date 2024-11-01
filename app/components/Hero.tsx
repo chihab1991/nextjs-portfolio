@@ -3,7 +3,7 @@ import Link from "next/link";
 const Hero = () => {
 	return (
 		<section id="hero" className="text-center px-6 py-20 container mx-auto ">
-			{/* bg-hero-image */}
+
 			<Image
 				src="/img/my-photo.jpeg"
 				width={140}
@@ -18,11 +18,11 @@ const Hero = () => {
 				</span>
 			</h3>
 			<p className="leading-7 mt-6 md:leading-8">
-				Hi, I’m Chergui Chihab Iddine, a dedicated React & Next.js Web Developer
+				Hi, I&apos;m Chergui Chihab Iddine, a dedicated React & Next.js Web Developer
 				based in Algeria. With a passion for coding and a commitment to
 				excellence, I specialize in crafting dynamic, user-friendly web
 				applications that prioritize both performance and aesthetics. Explore my
-				work, discover my skills, and let's connect to turn your ideas into
+				work, discover my skills, and let&apos;s connect to turn your ideas into
 				reality!
 			</p>
 			<Link

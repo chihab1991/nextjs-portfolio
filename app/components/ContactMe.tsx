@@ -1,7 +1,7 @@
 "use client";
 
 const ContactMe = () => {
-	const submitHandler = async (e) => {
+	const submitHandler = async (e: React.FormEvent) => {
 		e.preventDefault();
 	};
 	return (

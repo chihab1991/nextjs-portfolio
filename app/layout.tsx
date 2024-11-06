@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { Toaster } from "sonner";
 
 const geistSans = localFont({
 	src: "./fonts/GeistVF.woff",
@@ -17,7 +18,26 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
 	title: "Chergui Chihab Iddine | Web Developer",
-	description: "A web portfolio for Chergui Chihab Iddine ",
+	description:
+		"Portfolio of Chergui Chihab Iddine, a passionate web developer specializing in JavaScript, React, and Next.js. Discover projects, skills, and insights in modern web development with a focus on clean, responsive design and seamless user experiences.",
+	keywords: [
+		"Web Developer",
+		"React Developer",
+		"Next.js",
+		"JavaScript",
+		"TypeScript",
+		"Frontend Developer",
+		"Fullstack Developer",
+		"Portfolio",
+		"Chergui Chihab Iddine",
+	],
+	authors: [{ name: "Chergui Chihab Iddine" }],
+	creator: "Chergui Chihab Iddine",
+	openGraph: {
+		title: "Chergui Chihab Iddine | Web Developer",
+		description:
+			"Portfolio of Chergui Chihab Iddine, a passionate web developer specializing in JavaScript, React, and Next.js. Discover projects, skills, and insights in modern web development with a focus on clean, responsive design and seamless user experiences.",
+	},
 };
 
 export default function RootLayout({
@@ -32,6 +52,7 @@ export default function RootLayout({
 			>
 				<Header />
 				{children}
+				<Toaster position="top-center" richColors />
 				<Footer />
 			</body>
 		</html>

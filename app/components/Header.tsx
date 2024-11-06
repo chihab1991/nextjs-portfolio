@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaBarsStaggered, FaX } from "react-icons/fa6";
 import { useState } from "react";
+import logo2 from "@/public/img/logo-2.png";
+// import { motion } from "framer-motion";
 
 const Header = () => {
 	const [showMenu, setShowMenu] = useState(false);
@@ -14,13 +16,16 @@ const Header = () => {
 		<>
 			<header className="fixed top-0 left-0 bg-dark w-screen z-20 py-4 border-b-2 border-darkGrayishBlue/[.35]">
 				<nav className="container mx-auto flex justify-between items-center px-4 md:px-6">
-					<div>
-						<Image
-							src="/img/logo.png"
-							alt="logo image"
-							width="50"
-							height="50"
-						/>
+					<div className="rounded-full">
+						<Link href="#hero">
+							<Image
+								src={logo2}
+								className="rounded-full"
+								alt="logo image"
+								width="50"
+								height="50"
+							/>
+						</Link>
 					</div>
 					<div className="hidden md:block">
 						{/* <Link href="#home" className="mr-4 ">
@@ -57,8 +62,11 @@ const Header = () => {
 					</div>
 
 					<div>
-						<Link href="#contact-me" className="hidden md:inline-block">
-							Contact Me
+						<Link
+							href="#contact-me"
+							className="hidden hover:text-softBlue duration-500 md:inline-block"
+						>
+							Hire Me
 						</Link>
 					</div>
 					<div className="md:hidden">
@@ -81,13 +89,9 @@ const Header = () => {
 						showMenu ? "animate-fadeInDown" : "animate-fadeOutUp"
 					}`}
 				>
-					{/* <Link href="#home" className="mr-4 ">
-						Home
-						</Link> */}
-
 					<Link
 						href="#about"
-						className="text-xl hover:text-softBlue duration-500 py-3 border-b border-darkGrayishBlue/[.35]"
+						className="text-xl text-softBlue duration-500 py-3 border-b border-darkGrayishBlue/[.35]"
 						onClick={handleClick}
 					>
 						About
@@ -95,7 +99,7 @@ const Header = () => {
 
 					<Link
 						href="#projects"
-						className="text-xl hover:text-softBlue duration-500 py-3 border-b border-darkGrayishBlue/[.35]"
+						className="text-xl text-softBlue duration-500 py-3 border-b border-darkGrayishBlue/[.35]"
 						onClick={handleClick}
 					>
 						Projects
@@ -103,17 +107,17 @@ const Header = () => {
 
 					<Link
 						href="#services"
-						className="text-xl hover:text-softBlue duration-500 py-3 border-b border-darkGrayishBlue/[.35] "
+						className="text-xl text-softBlue duration-500 py-3 border-b border-darkGrayishBlue/[.35] "
 						onClick={handleClick}
 					>
 						Services
 					</Link>
 					<Link
 						href="#contact-me"
-						className="text-xl hover:text-softBlue duration-500 py-3 border-b border-darkGrayishBlue/[.35]"
+						className="text-xl text-softBlue duration-500 py-3 border-b border-darkGrayishBlue/[.35]"
 						onClick={handleClick}
 					>
-						Contact Me
+						Hire Me
 					</Link>
 				</div>
 			)}

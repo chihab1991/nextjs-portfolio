@@ -1,15 +1,11 @@
 "use client";
 
-import { toast } from "sonner";
-
 const ContactMe = () => {
 	const submitHandler = async (e: React.FormEvent) => {
 		e.preventDefault();
 		try {
-			if (true) toast.error("email sent!");
 		} catch (error) {
 			console.log(error);
-			toast.error("email wasn't sent, please resend your email!");
 		}
 	};
 	return (

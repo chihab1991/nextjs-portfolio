@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { Toaster } from "sonner";
 
 const geistSans = localFont({
 	src: "./fonts/GeistVF.woff",
@@ -31,6 +30,9 @@ export const metadata: Metadata = {
 		"Portfolio",
 		"Chergui Chihab Iddine",
 	],
+	verification: {
+		google: "TJ-kZW_rKWzRKdF49OSR1bDVifWjV7oGy2UeyVbxIu4",
+	},
 	authors: [{ name: "Chergui Chihab Iddine" }],
 	creator: "Chergui Chihab Iddine",
 	openGraph: {
@@ -52,7 +54,6 @@ export default function RootLayout({
 			>
 				<Header />
 				{children}
-				<Toaster position="top-center" richColors />
 				<Footer />
 			</body>
 		</html>

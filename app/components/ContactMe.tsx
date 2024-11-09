@@ -1,13 +1,22 @@
 "use client";
 
+import { useEffect, useActionState } from "react";
+import { sendEmail } from "@/actions";
+
 const ContactMe = () => {
-	const submitHandler = async (e: React.FormEvent) => {
-		e.preventDefault();
-		try {
-		} catch (error) {
-			console.log(error);
+	const [sendEmailState, sendEmailAction] = useActionState(sendEmail, {
+		error: null,
+		success: false,
+	});
+
+	useEffect(() => {
+		if (sendEmailState.success) {
+			alert("Email send!");
 		}
-	};
+		if (sendEmailState.error) {
+			alert("Oops something went wrong!!! Please try again.");
+		}
+	}, [sendEmailState]);
 	return (
 		<section
 			id="contact-me"
@@ -21,7 +30,7 @@ const ContactMe = () => {
 			</h4>
 
 			<form
-				onSubmit={submitHandler}
+				action={sendEmailAction}
 				className="text-left mt-16 md:max-w-2xl md:mx-auto"
 			>
 				<div>
@@ -42,7 +51,7 @@ const ContactMe = () => {
 						Email
 					</label>
 					<input
-						type="text"
+						type="email"
 						name="email"
 						id="email"
 						placeholder="example@gmail.com"

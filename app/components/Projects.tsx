@@ -7,11 +7,11 @@ const Projects = () => {
 	return (
 		<section id="projects" className="text-center px-6 py-20 container mx-auto">
 			<h1 className="text-2xl font-bold ">Projects</h1>
-			<h4 className="text-lg ">
+			<h2 className="text-lg ">
 				<span className="bg-clip-text text-transparent bg-gradient-to-r from-softBlue to-white">
 					Some of my Work
 				</span>
-			</h4>
+			</h2>
 			{/* <ul>
 				{ TODO projects filter }
 				<li>All</li>
@@ -28,7 +28,12 @@ const Projects = () => {
 							</h4>
 							<p className="mt-4 text-gray">Tech Used</p>
 						</div>
-						<Link href="#" target="_blank" className="self-end">
+						<Link
+							href="#"
+							target="_blank"
+							className="self-end"
+							aria-label="link to project one"
+						>
 							<BsFillArrowUpRightCircleFill className=" rounded-full text-5xl text-softBlue bg-white" />
 						</Link>
 					</div>
@@ -43,7 +48,12 @@ const Projects = () => {
 							</h4>
 							<p className="mt-4 text-gray">Tech Used</p>
 						</div>
-						<Link href="#" target="_blank" className="self-end">
+						<Link
+							href="#"
+							target="_blank"
+							className="self-end"
+							aria-label="link to project two"
+						>
 							<BsFillArrowUpRightCircleFill className=" rounded-full text-5xl text-softBlue bg-white" />
 						</Link>
 					</div>
@@ -58,7 +68,12 @@ const Projects = () => {
 							</h4>
 							<p className="mt-4 text-gray">Tech Used</p>
 						</div>
-						<Link href="#" target="_blank" className="self-end">
+						<Link
+							href="#"
+							target="_blank"
+							className="self-end"
+							aria-label="link to project three"
+						>
 							<BsFillArrowUpRightCircleFill className=" rounded-full text-5xl text-softBlue bg-white" />
 						</Link>
 					</div>

@@ -52,13 +52,6 @@ const Header = () => {
 						>
 							Services
 						</Link>
-
-						<Link
-							href="#resume"
-							className="text-xl hover:text-softBlue duration-500"
-						>
-							Resume
-						</Link>
 					</div>
 
 					<div>
@@ -70,7 +63,7 @@ const Header = () => {
 						</Link>
 					</div>
 					<div className="md:hidden">
-						<button onClick={handleClick}>
+						<button onClick={handleClick} aria-label="show or hide menu">
 							{showMenu ? (
 								<FaX className="text-2xl" />
 							) : (

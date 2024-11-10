@@ -2,11 +2,11 @@ const About = () => {
 	return (
 		<section id="about" className="text-center px-6 py-20 container mx-auto">
 			<h1 className="text-2xl font-bold ">About Me</h1>
-			<h4 className="text-lg ">
+			<h2 className="text-lg ">
 				<span className="bg-clip-text text-transparent bg-gradient-to-r from-softBlue to-white">
 					Get to know me
 				</span>
-			</h4>
+			</h2>
 			<p className="pt-12 leading-8">
 				Hello! I&apos;m a passionate React & Next.js Web Developer based in
 				Algeria. With a background in electrical engineering and a deep love for

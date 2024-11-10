@@ -8,6 +8,7 @@ const Footer = () => {
 					<Link
 						href="#"
 						className="inline-block mr-5 text-xl p-1.5 rounded-full border border-gray/60 hover:border-softBlue hover:text-softBlue duration-300"
+						aria-label="Link to Linked in account"
 					>
 						<FaLinkedinIn />
 					</Link>
@@ -15,6 +16,7 @@ const Footer = () => {
 					<Link
 						href="#"
 						className="inline-block mr-5 text-xl p-1.5 rounded-full border border-gray/60 hover:border-softBlue hover:text-softBlue duration-300"
+						aria-label="Link to github account"
 					>
 						<FaGithub />
 					</Link>

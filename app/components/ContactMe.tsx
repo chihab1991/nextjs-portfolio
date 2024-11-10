@@ -23,11 +23,11 @@ const ContactMe = () => {
 			className="text-center px-6 py-20 container mx-auto"
 		>
 			<h1 className="text-2xl font-bold ">Get In Touch</h1>
-			<h4 className="text-lg ">
+			<h2 className="text-lg ">
 				<span className="bg-clip-text text-transparent bg-gradient-to-r from-softBlue to-white">
 					Lets work together
 				</span>
-			</h4>
+			</h2>
 
 			<form
 				action={sendEmailAction}

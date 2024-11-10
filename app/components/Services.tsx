@@ -14,7 +14,7 @@ const Services = () => {
 					<div className=" inline-block p-4 bg-white text-xl text-dark rounded-md">
 						<ImSun />
 					</div>
-					<h4 className="mt-4 text-lg font-semibold">frontend</h4>
+					<h3 className="mt-4 text-lg font-semibold">frontend</h3>
 					<p className="mt-4 text-lightGray leading-7">
 						JOB DESCRIPTION Lorem ipsum dolor sit amet consectetur adipisicing
 						elit. Temporibus cumque consequatur omnis adipisci repellendus
@@ -26,7 +26,7 @@ const Services = () => {
 					<div className=" inline-block p-4 bg-white text-xl text-dark rounded-md">
 						<ImSun />
 					</div>
-					<h4 className="mt-4 text-lg font-semibold">frontend</h4>
+					<h3 className="mt-4 text-lg font-semibold">frontend</h3>
 					<p className="mt-4 text-lightGray leading-7">
 						JOB DESCRIPTION Lorem ipsum dolor sit amet consectetur adipisicing
 						elit. Temporibus cumque consequatur omnis adipisci repellendus
@@ -38,7 +38,7 @@ const Services = () => {
 					<div className=" inline-block p-4 bg-white text-xl text-dark rounded-md">
 						<ImSun />
 					</div>
-					<h4 className="mt-4 text-lg font-semibold">frontend</h4>
+					<h3 className="mt-4 text-lg font-semibold">frontend</h3>
 					<p className="mt-4 text-lightGray leading-7">
 						JOB DESCRIPTION Lorem ipsum dolor sit amet consectetur adipisicing
 						elit. Temporibus cumque consequatur omnis adipisci repellendus

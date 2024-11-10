@@ -23,9 +23,9 @@ const Projects = () => {
 					<Image src={placeholder} alt="project 01" className="w-full" />
 					<div className="flex items-center justify-between mt-12">
 						<div>
-							<h4 className="text-lg font-semibold">
+							<h3 className="text-lg font-semibold">
 								Project name/ description
-							</h4>
+							</h3>
 							<p className="mt-4 text-gray">Tech Used</p>
 						</div>
 						<Link
@@ -43,9 +43,9 @@ const Projects = () => {
 					<Image src={placeholder} alt="project 01" className="w-full" />
 					<div className="flex items-center justify-between mt-12">
 						<div>
-							<h4 className="text-lg font-semibold">
+							<h3 className="text-lg font-semibold">
 								Project name/ description
-							</h4>
+							</h3>
 							<p className="mt-4 text-gray">Tech Used</p>
 						</div>
 						<Link
@@ -63,9 +63,9 @@ const Projects = () => {
 					<Image src={placeholder} alt="project 01" className="w-full" />
 					<div className="flex items-center justify-between mt-12">
 						<div>
-							<h4 className="text-lg font-semibold">
+							<h3 className="text-lg font-semibold">
 								Project name/ description
-							</h4>
+							</h3>
 							<p className="mt-4 text-gray">Tech Used</p>
 						</div>
 						<Link

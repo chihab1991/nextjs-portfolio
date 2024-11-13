@@ -6,7 +6,7 @@ const Footer = () => {
 			<div className="container mx-auto md:flex md:flex-row-reverse md:justify-between md:items-center">
 				<div className="flex justify-center items-center">
 					<Link
-						href="#"
+						href="https://www.linkedin.com/in/chihab-iddine-elhocine-chergui-885883210/"
 						className="inline-block mr-5 text-xl p-1.5 rounded-full border border-gray/60 hover:border-softBlue hover:text-softBlue duration-300"
 						aria-label="Link to Linked in account"
 					>
@@ -14,7 +14,7 @@ const Footer = () => {
 					</Link>
 
 					<Link
-						href="#"
+						href="https://github.com/chihab1991"
 						className="inline-block mr-5 text-xl p-1.5 rounded-full border border-gray/60 hover:border-softBlue hover:text-softBlue duration-300"
 						aria-label="Link to github account"
 					>

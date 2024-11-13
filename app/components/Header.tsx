@@ -40,24 +40,24 @@ const Header = () => {
 						</Link>
 
 						<Link
-							href="#projects"
-							className="md:mr-8 lg:mr-16 text-xl hover:text-softBlue duration-500"
-						>
-							Projects
-						</Link>
-
-						<Link
 							href="#services"
 							className="md:mr-8 lg:mr-16 text-xl hover:text-softBlue duration-500"
 						>
 							Services
+						</Link>
+
+						<Link
+							href="#projects"
+							className="md:mr-8 lg:mr-16 text-xl hover:text-softBlue duration-500"
+						>
+							Projects
 						</Link>
 					</div>
 
 					<div>
 						<Link
 							href="#contact-me"
-							className="hidden hover:text-softBlue duration-500 md:inline-block"
+							className="hidden md:inline-block border rounded-full font-semibold border-softBlue px-10 py-3 hover:text-softBlue duration-300"
 						>
 							Hire Me
 						</Link>

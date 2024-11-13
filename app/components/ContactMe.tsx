@@ -20,7 +20,7 @@ const ContactMe = () => {
 	return (
 		<section
 			id="contact-me"
-			className="text-center px-6 py-20 container mx-auto"
+			className="text-center px-6 py-32 container mx-auto"
 		>
 			<h1 className="text-2xl font-bold ">Get In Touch</h1>
 			<h2 className="text-lg ">

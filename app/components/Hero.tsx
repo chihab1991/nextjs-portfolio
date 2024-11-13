@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Hero = () => {
 	return (
-		<section id="hero" className="text-center px-6 py-20 container mx-auto ">
+		<section id="hero" className="text-center px-6 py-32 container mx-auto ">
 			<Image
 				src="/img/my-photo.jpeg"
 				width={140}
